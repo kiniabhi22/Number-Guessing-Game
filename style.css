@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.parent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.child1
+{
+    width: 30%;
+    height: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.child2
+{
+    width: 60%;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+
+
+}
+.home{
+    margin-bottom: 100px;
+}
+button
+{
+  padding: 10px;  
+
+}
+.child2 button, .child1 button
+{
+    height: fit-content (15px);
+    margin-top: 150px;
+}
+.empty
+{
+    width: 80px;
+    height: 100px;
+    border: 2px solid black;
+    margin-top: 120px;
+}
+.reveal  
+{
+ margin-top: 50px;
+ margin-left: 10vw;
+ width: 80vw;
+
+}
+#id1
+{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+#gen
+{
+    /* margin-bottom: 250px; */
+    background-color: rgb(252, 11, 212);
+    position: absolute;
+    margin-top: 120px;
+    
+}
