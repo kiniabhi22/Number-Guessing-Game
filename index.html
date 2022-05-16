@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number guessing game</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body onload="load()">
     
@@ -17,33 +18,33 @@
               <button id="gen" onclick="GetRad()">Generate Random Number</button>
           </div>
           <div class="child2">
-              
-                  <div id="empty" class="empty">X</div>
-                  <div id="hide">
-                      <div class="buttonmain">
-                    <button onclick="typo(0)">0</button>
-                    <button onclick="typo(1)">1</button>
-                    <button onclick="typo(2)">2</button>
-                    <button onclick="typo(3)">3</button>
-                    <button onclick="typo(4)">4</button>
-                    <button onclick="typo(5)">5</button>
-                    <button onclick="typo(6)">6</button>
-                    <button onclick="typo(7)">7</button>
-                    <button onclick="typo(8)">8</button>
-                    <button onclick="typo(9)">9</button>
-                    <button onclick="submit()">Submit</button>
+              <div class="flex">
+                <div id="empty" class="empty">X</div>
+                <div id="hide" class="hide">
+                  <div class="buttonmain">
+                  <button onclick="typo(0)">0</button>
+                  <button onclick="typo(1)">1</button>
+                  <button onclick="typo(2)">2</button>
+                  <button onclick="typo(3)">3</button>
+                  <button onclick="typo(4)">4</button>
+                  <button onclick="typo(5)">5</button>
+                  <button onclick="typo(6)">6</button>
+                  <button onclick="typo(7)">7</button>
+                  <button onclick="typo(8)">8</button>
+                  <button onclick="typo(9)">9</button>
+                  <div class="submit"><button onclick="submit()">Submit</button></div>
+              </div>
+              </div>
+                  
+                <div class="revealmain">
+                    <button class="reveal" onclick="reveal()">Reveal</button>
                 </div>
-                
-              
-              
-              
-              
-
           </div>
         
     </div>
-    <button class="reveal" onclick="reveal()">Reveal</button>
-    <div id="id1"></div>
+    
+    
+    <div class="id1"><div id="id1"></div></div>
     <script src="script.js"></script>
 </body>
 </html>

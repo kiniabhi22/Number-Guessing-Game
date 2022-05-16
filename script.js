@@ -15,6 +15,8 @@ function GetRad()
         // doubt
         a=Math.floor(Math.random()*10);
         document.getElementById("gen").innerHTML="Random number generated";
+        
+        
       q=1;
     }
     else{

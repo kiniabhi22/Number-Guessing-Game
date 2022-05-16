@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0 ;
+
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.parent .child1{
+    display: flex;
+    padding: 20px;
+}
+.parent .child1 button{
+    width: 80px;
+    height: 90px;
+}
+
+.parent .child2{
+    display: flex;
+    flex-direction: column;
+    /* flex: 4; */
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    padding: 20px;
+}
+.parent .child2 .empty{
+    display: flex;
+    border: 1px solid #000;
+    width: 250px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.parent .child2 .hide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.parent .child2 .hide .buttonmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.parent .child2 .hide .buttonmain button{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: space-around;
+}
